@@ -1,2 +1,3 @@
-# terrescot-control
-Terrescotの連携機能を作りやすくしてくれるやーつ。
+# Terrescot Control
+**インストール**
+``npm install github:mf-3d/terrescot-control``
