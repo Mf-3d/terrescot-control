@@ -54,7 +54,7 @@ module.exports = {
                 console.log('Data: \n' + data + '\nError: \n' + err);
             });
         },
-        alerm: () => {
+        alarm: () => {
             get_config();
             var URL = `http://localhost:${config.config.port}/soleil_api/run_function`;
 
@@ -62,7 +62,7 @@ module.exports = {
                 uri: URL,
                 headers: { "Content-type": "application/json" },
                 json: {
-                    function: 'alerm'
+                    function: 'alarm'
                 }
             }, (err, res, data) => {
                 console.log('Data: \n' + data + '\nError: \n' + err);
